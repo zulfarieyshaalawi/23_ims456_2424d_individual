@@ -1,0 +1,390 @@
+body
+{
+    background-color: #f9d7cc;
+}
+
+h1
+{
+    color:#692705;
+    font-family:'Lucida Grande';
+    font-size: 40px;
+    text-align: center;
+}
+
+
+a
+{
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    padding: 10px;
+    font-size: 16px;
+}
+
+a:hover
+{
+    color: #cf8b64;
+    font-size: 18px;
+}
+
+.header
+{
+    text-align: center;
+    width: 100%;
+    background-color: #f8777e;
+    padding-bottom: 30px;
+}
+
+.header a
+{
+    color: whitesmoke;
+    font-style: inherit;
+}
+
+.slider
+{
+    width: 100%;
+    background-color:#9a3d3d;
+    float: right;
+}
+
+.box1
+{
+    width: 100%;
+    background: #f3b69f;
+    text-emphasis-position: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    text-align: justify;
+}
+
+.box1 p
+{
+    display: inline-block;
+    padding: 0 20%;
+    text-align: center;
+    text-align: justify;
+    text-indent: 50px;
+
+}
+
+.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Handlee', cursive;
+}
+
+
+
+h4
+{
+    color: #692705;
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to bottom, #9d8c8c, #f4f4f4)
+}
+
+p
+{
+    font-family:'arial';
+    font-size: 16px;
+    text-align: center;
+}
+
+h2
+{
+    color: #692705;
+    font-style: oblique;
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 40px;
+    color: #692705;
+
+}
+
+.script
+{
+    width: 1200px;
+    height: 250px;
+
+}
+
+p
+{
+    text-align: center;
+    font-family: 'courier new';
+    font-size: 20px;
+    color:maroon;
+    line-height: 2.0;
+    text-align: justify;
+}
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ffe5dd; /* Grey background */
+  padding-bottom: 40px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.graphic {width: 90%; background-color: #04AA6D;} /* Green */
+.photo {width: 80%; background-color: #2196F3;} /* Blue */
+.microsoft {width: 65%; background-color: #f44336;} /* Red */
+.video {width: 60%; background-color: #808080;} /* Dark Grey */
+
+h5
+{
+    color: #692705;
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+}
+
+@keyframes moving-text 
+{
+    0% { transform: translateX(-100%); }
+    50% {transform: translateX(100%);}
+    100% { transform: translateX(-100px); }
+}
+  
+.animated-text  
+{
+    position: relative;
+    animation: moving-text 13s linear infinite;
+    font-family: georgia;
+    font-size: 25px;
+}
+  
+
+mark
+{
+    background-color: #ffd3c4;
+    color:#692705;
+}
+  
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container p
+{
+    margin:5px 0;
+    text-align: center;
+    color: black;
+}
+
+.skill-container
+{
+    width: 80%;
+    background-color: #f6efef;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.skill-title
+{
+    margin-top: 0;
+    padding: 10px;
+}
+
+.skill-bar
+{
+    text-align: center;
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 0;
+    transition: width 1s;
+}
+
+.graphic-design 
+{
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+  .photo-editing
+{
+    width: 80%;
+    background-color: #2196F3;
+}
+
+  .microsoft 
+{
+    width: 65%;
+    background-color: #f44336;
+}
+
+  .video-editing 
+{
+    width: 60%;
+    background-color: #808080;
+}
+
+.image-container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container .box
+{
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 300px; /* Set a specific height for the boxes */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.image-container .box img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain image aspect ratio */
+}
+
+.title-button
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.title
+{
+    font-family:  Geneva;
+    font-size: 24px;
+    font-weight: bold;
+    color: #83463f;
+}
+
+.title-button1
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.title
+{
+    font-family:  Geneva;
+    font-size: 24px;
+    font-weight: bold;
+    color: #83463f;
+}
+
+.footer
+{
+    background-color: #9a3d3d;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p
+{
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.iframe
+{
+    padding-bottom: 150px;
+}
+
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td 
+{
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:first-child td 
+{
+    background-color: maroon;
+    color: #fad5d5;
+    font-family: Arial;
+}
+
+.title-button2
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.social-container
+{
+    display: flex;
+}
+
+.left-column 
+{
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 150px;
+}
+
+.right-column 
+{
+    flex: 1;
+    padding: 50px;
+    padding-bottom: 150px;;
+}
+
+.right-column p
+{
+    font-family: 'Trebuchet MS';
+    background-color: #692705;
+    color: #f4f4f4;
+}
+
+.social-media-icons a
+{
+    font-size: 24px;
+    margin-right: 10px;
+    color: #000;
+    padding: 5px;
+}
+  
+.fab.fa-twitter
+{
+    color: #1DA1F2;
+}
+  
+.fab.fa-instagram
+{
+    color: #E4405F;
+}
